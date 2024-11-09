@@ -1,0 +1,104 @@
+/* Outline style variations */
+p.dotted {
+  outline-style: dotted; /* Sets a dotted outline */
+  outline-color: red;    /* Outline color */
+  outline-width: 3px;    /* Outline thickness */
+}
+
+p.dashed {
+  outline: 3px dashed red; /* Sets dashed outline with shorthand */
+}
+
+p.solid {
+  outline: 3px solid red; /* Sets solid outline */
+}
+
+p.double {
+  outline: 3px double red; /* Sets double outline */
+}
+
+p.groove {
+  outline: 3px groove red; /* Groove outline; effect depends on outline color */
+}
+
+p.ridge {
+  outline: 3px ridge red; /* Ridge outline; effect depends on outline color */
+}
+
+p.inset {
+  outline: 3px inset red; /* Inset outline */
+}
+
+p.outset {
+  outline: 3px outset red; /* Outset outline */
+}
+
+/* Outline width variations */
+p.thin {
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thin; /* Thin outline width */
+}
+
+p.medium {
+  outline-style: solid;
+  outline-color: red;
+  outline-width: medium; /* Medium outline width */
+}
+
+p.thick {
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thick; /* Thick outline width */
+}
+
+p.px4 {
+  outline-style: solid;
+  outline-color: red;
+  outline-width: 4px; /* Custom outline width: 4px */
+}
+
+/* Outline color variations */
+p.ex1 {
+  border: 2px solid black;
+  outline-style: solid;
+  outline-color: red; /* Solid red outline */
+}
+
+p.ex2 {
+  border: 2px solid black;
+  outline-style: dotted;
+  outline-color: blue; /* Dotted blue outline */
+}
+
+p.ex3 {
+  border: 2px solid black;
+  outline-style: outset;
+  outline-color: grey; /* Outset grey outline */
+}
+
+/* Shorthand outline examples */
+p.shorthand01 {
+  outline: dashed; /* Outline style: dashed */
+}
+
+p.shorthand02 {
+  outline: dotted red; /* Dotted red outline using shorthand */
+}
+
+p.shorthand03 {
+  outline: 5px solid yellow; /* 5px solid yellow outline */
+}
+
+p.shorthand04 {
+  outline: thick ridge pink; /* Thick ridge pink outline */
+}
+
+/* Outline offset example */
+p.offset {
+  margin: 30px;
+  border: 1px solid black;
+  outline: 1px solid red;
+  outline-offset: 15px; /* Outline is 15px offset from border */
+  background: yellow;
+}
